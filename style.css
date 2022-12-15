@@ -12,7 +12,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: rgba(238, 130, 238, 0.422);
+    background: rgb(238 130 238 / 8%);
 }
 
 .contenedor{
@@ -68,7 +68,7 @@ form .lista-desplegable{
     width: 115px;
     align-items: center;
     justify-content: center;
-    background: pink;
+    background:#dedede38;
     border-radius: 5px;
     border: 1px solid #999
 }
@@ -77,6 +77,8 @@ form .lista-desplegable{
     width: auto;
     font-size: 16px;
     margin: 0 -5px 0 5px;
+    color: #000000;
+    background: #dedede38;
 }
 
 .select-box select::-webkit-scrollbar{
