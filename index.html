@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor De Divisas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>Conversor De Divisas</header>
+        <form action="#">
+            <div class="monto">
+                <p>Ingrese monto a convertir</p>
+                <input type="text" value="1">
+            </div>
+            <div class="lista-desplegable">
+                <div class="de">
+                    <p>De</p>
+                    <div class="select-box">
+                        <img src="https://www.countryflagsapi.com/png/ar" alt="flag">
+                        <select>
+                            <option value="ARS">ARS</option>
+                            <option value="USD">USD</option>
+                            <option value="BRL">BRL</option>
+                            <option value="EUR">EUR</option>
+                            <option value="MXN">MXN</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+                <div class="a">
+                    <p>A</p>
+                    <div class="select-box">
+                        <img src="https://www.countryflagsapi.com/png/us" alt="flag">
+                        <select>
+                            <option value="ARS">ARS</option>
+                            <option value="USD">USD</option>
+                            <option value="BRL">BRL</option>
+                            <option value="EUR">EUR</option>
+                            <option value="MXN">MXN</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="exchange-rate">Esperando resultado...</div>
+            <button>Ver conversion</button>
+        </form>
+    </div>
+
+    <script src="js/lista-paises.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
